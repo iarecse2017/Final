@@ -1,1 +1,2 @@
-# website
+This is OFFICIAL WBSITE OF IARE-CSE-C CLASS
+FOR MORE DETAILS MAIL TO iarecse2017@gmail.com
