@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+<head><title>LOGIN</title>
+<style type="text/css">
+.ping{letter-spacing:7px;font-weight:1000px;color:white;font-size:26px;font-family:comic sans MS;text-shadow:0px 1px 1px white;text-decoration:none;}
+.ping:hover{background-color:black;}
+form{text-align:center;}
+label{color:white;font-size:24px;letter-spacing:1px;text-decoration:none;font-weight:800;font-family:comic sans MS}
+input{font-size:20px;cursor:pointer;}
+input:hover{background-color:yellow;}
+body{background-image:url("pexel.jpg");
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+</style>
+<script language="javascript">
+<!--//
+/*This Script allows people to enter by using a form that asks for a
+UserID and Password*/
+function pasuser(form) {
+if (form.id.value=="Student"||form.id.value=="admin"||form.id.value=="student") { 
+if (form.pass.value=="17951A05C1"||form.pass.value=="17951A05C2"||form.pass.value=="17951A05C3"||form.pass.value=="17951A05C4"||form.pass.value=="17951A05C5"||form.pass.value=="17951A05C6"||form.pass.value=="17951A05C7"||form.pass.value=="17951A05C8"||form.pass.value=="17951A05C9"||form.pass.value=="17951A05D0"||form.pass.value=="17951A05D1"||form.pass.value=="17951A05D2"||form.pass.value=="17951A05D3"||form.pass.value=="17951A05D4"||form.pass.value=="17951A05D5"||form.pass.value=="17951A05D6"||form.pass.value=="17951A05D7"||form.pass.value=="17951A05D8"||form.pass.value=="17951A05D9"||form.pass.value=="17951A05E0"||form.pass.value=="17951A05E1"||form.pass.value=="17951A05E2"||form.pass.value=="17951A05E3"||form.pass.value=="17951A05E4"||form.pass.value=="17951A05E5"||form.pass.value=="17951A05E6"||form.pass.value=="17951A05E7"||form.pass.value=="17951A05E8"||form.pass.value=="17951A05E9"||form.pass.value=="17951A05F0"||form.pass.value=="17951A05F1"||form.pass.value=="17951A05F2"||form.pass.value=="17951A05F3"||form.pass.value=="17951A05F4"||form.pass.value=="17951A05F5"||form.pass.value=="17951A05F6"||form.pass.value=="17951A05F7"||form.pass.value=="17951A05F8"||form.pass.value=="17951A05F9"||form.pass.value=="17951A05G0"||form.pass.value=="17951A05G1"||form.pass.value=="17951A05G2"||form.pass.value=="17951A05G3"||form.pass.value=="17951A05G4"||form.pass.value=="17951A05G5"||form.pass.value=="17951A05G6"||form.pass.value=="17951A05G7"||form.pass.value=="17951A05G8"||form.pass.value=="17951A05G9"||form.pass.value=="17951A05H0"||form.pass.value=="17951A05H1"||form.pass.value=="17951A05H2"||form.pass.value=="17951A05H3"||form.pass.value=="17951A05H4"||form.pass.value=="17951A05H5"||form.pass.value=="17951A05H6"||form.pass.value=="17951A05H7"||form.pass.value=="17951A05H8"||form.pass.value=="17951A05H9"||form.pass.value=="17951A05J0"||form.pass.value=="fuckoff") {              
+location="stu_home.html" 
+}
+else {  alert("Invalid  PASSWORD")}
+
+}
+else{ alert("INVALID USER-ID") }
+}
+//-->
+</script>
+</head>
+<body >
+<a class="ping" href="index.html">BACK</a>
+<form>
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label for="admin">USER-ID :</label> <input type="text" name="id" id="admin" /><br/><br/>
+<label for="password">PASSWORD :</label> <input type="password" name="pass" id="password" maxlength="10"/> 
+                        
+
+                      <input type="button" value="LOGIN" onClick="pasuser(this.form)"/>
+
+</pre>
+</form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+<head><title>LOGIN</title>
+<style type="text/css">
+.ping{letter-spacing:7px;font-weight:1000px;color:white;font-size:26px;font-family:comic sans MS;text-shadow:0px 1px 1px white;text-decoration:none;}
+.ping:hover{background-color:black;}
+form{text-align:center;}
+label{color:white;font-size:24px;letter-spacing:1px;text-decoration:none;font-weight:800;font-family:comic sans MS}
+input{font-size:20px;cursor:pointer;}
+input:hover{background-color:yellow;}
+body{background-image:url("pexel.jpg");
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+</style>
+<script language="javascript">
+<!--//
+function pasuser(form) {
+if (form.id.value=="ADMIN") { 
+if (form.pass.value=="123123"){
+location="pro_home.html"
+}
+else {  alert("INVALID USER-ID or PASSWORD")}
+
+}
+else{ alert("INVALID USER-ID or PASSWORD") }
+}
+//-->
+</script>
+</head>
+<body >
+<a class="ping" href="index.html">BACK</a>
+<form>
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label for="admin">USER-ID :</label> <input type="text" name="id" id="admin" /><br/><br/>
+<label for="password">PASSWORD :</label> <input type="password" name="pass" id="password" maxlength="10"/> 
+                        
+
+                      <input type="button" value="LOGIN" onClick="pasuser(this.form)"/>
+
+</pre>
+</form>
+</body>
+</html>
